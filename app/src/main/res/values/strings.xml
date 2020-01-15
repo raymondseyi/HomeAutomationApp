@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">HomeAutomation</string>
+    <string name="port_1">PORT 1</string>
+    <string name="port_3">PORT 3</string>
+    <string name="port_4">PORT 4</string>
+    <string name="port_5">AC</string>
+    <string name="port_2">PORT 2</string>
+    <string name="port_6">TV</string>
+    <string name="port_7">FAN</string>
+    <string name="port_8">LIGHT</string>
+    <string name="port_all">TextView</string>
+    <string name="all">ALL</string>
+</resources>
