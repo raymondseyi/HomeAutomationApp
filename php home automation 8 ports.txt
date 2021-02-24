@@ -1,0 +1,66 @@
+<?php 
+exec("gpio mode 0 out");
+exec("gpio mode 2 out");
+exec("gpio mode 3 out");
+exec("gpio mode 12 out");
+exec("gpio mode 13 out");
+exec("gpio mode 14 out");
+exec("gpio mode 30 out");
+exec("gpio mode 21 out");
+if (isset($_GET['port1'])) {	
+	if($_GET['port1'] == 1) {
+		exec("gpio write 0 0");//
+	} else {
+		exec("gpio write 0 1");
+	}
+}
+if (isset($_GET['port2'])) {	
+	if($_GET['port2'] == 1) {
+		exec("gpio write 2 0");//
+	} else {
+		exec("gpio write 2 1");
+	}
+}
+if (isset($_GET['port3'])) {	
+	if($_GET['port3'] == 1) {
+		exec("gpio write 3 0");//
+	} else {
+		exec("gpio write 3 1");
+	}
+}
+if (isset($_GET['port4'])) {	
+	if($_GET['port4'] == 1) {
+		exec("gpio write 12 0");//
+	} else {
+		exec("gpio write 12 1");
+	}
+}
+if (isset($_GET['port5'])) {	
+	if($_GET['port5'] == 1) {
+		exec("gpio write 13 0");//
+	} else {
+		exec("gpio write 13 1");
+	}
+}
+if (isset($_GET['port6'])) {	
+	if($_GET['port6'] == 1) {
+		exec("gpio write 14 0");//
+	} else {
+		exec("gpio write 14 1");
+	}
+}
+if (isset($_GET['port7'])) {	
+	if($_GET['port7'] == 1) {
+		exec("gpio write 30 0");//
+	} else {
+		exec("gpio write 30 1");
+	}
+}
+if (isset($_GET['port8'])) {	
+	if($_GET['port8'] == 1) {
+		exec("gpio write 21 0");//
+	} else {
+		exec("gpio write 21 1");
+	}
+}
+?>
